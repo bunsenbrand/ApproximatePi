@@ -21,7 +21,8 @@ function setup() {
   canv.style("marginTop","100px");
   canv.style("border","10px solid rgb(150,150,150)");
 
-
+  createP("");
+  
   sli = createSlider(2,501,2);
   sli.style("display","block");
   sli.style("margin","0 auto");
